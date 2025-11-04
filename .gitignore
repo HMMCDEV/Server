@@ -10,6 +10,7 @@ logs/
 
 # 缓存文件
 cache/
+.console_history
 
 # 玩家数据文件
 usercache.json
