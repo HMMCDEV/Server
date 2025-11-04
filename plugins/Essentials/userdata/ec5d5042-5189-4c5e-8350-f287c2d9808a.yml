@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.0.0.1
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 1762269323707
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1762269398414
+  login: 1762269280442
+money: '0'
+last-account-name: GuoDong1001
+logoutlocation:
+  world: 30a4676d-5ed9-4c19-b710-b5305656aa6d
+  world-name: world
+  x: -1.16584795E7
+  y: 112.0
+  z: -9383036.5
+  yaw: -157.8395233154297
+  pitch: 29.400005340576172
+lastlocation:
+  world: 30a4676d-5ed9-4c19-b710-b5305656aa6d
+  world-name: world
+  x: 539.4003962231576
+  y: 64.0
+  z: 1063.272872810526
+  yaw: -101.55003356933594
+  pitch: 23.249982833862305
