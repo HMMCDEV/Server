@@ -1,0 +1,51 @@
+# Minecraft Paper 服务端 .gitignore 文件
+
+# 世界数据（通常很大且包含玩家数据）
+world/
+world_nether/
+world_the_end/
+
+# 服务器日志
+logs/
+
+# 缓存文件
+cache/
+
+# 玩家数据文件
+usercache.json
+banned-ips.json
+banned-players.json
+ops.json
+whitelist.json
+
+# 版本历史
+version_history.json
+
+# 库文件夹
+libraries/
+
+# 自动生成的配置文件（可以手动管理模板）
+# 如果你想要跟踪配置更改，可以注释掉这些行
+# bukkit.yml
+# spigot.yml
+# paper.yml
+# help.yml
+# commands.yml
+# permissions.yml
+# server.properties
+
+# 版本文件夹
+versions/
+
+# 临时文件
+*.tmp
+*.temp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 文件
+.idea/
+*.iml
+.vscode/
