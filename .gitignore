@@ -50,3 +50,6 @@ Thumbs.db
 .idea/
 *.iml
 .vscode/
+
+#粘液科技数据文件夹
+data-storage/
