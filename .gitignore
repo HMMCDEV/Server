@@ -30,10 +30,10 @@ libraries/
 # bukkit.yml
 # spigot.yml
 # paper.yml
-# help.yml
-# commands.yml
-# permissions.yml
-# server.properties
+help.yml
+commands.yml
+permissions.yml
+server.properties
 
 # 版本文件夹
 versions/
@@ -53,3 +53,14 @@ Thumbs.db
 
 #粘液科技数据文件夹
 data-storage/
+
+plugins/Jobs/jobs.sqlite.db
+plugins/Essentials/userdata/
+plugins/CoreProtect/database.db
+plugins/LuckPerms/luckperms-h2-v2.mv.db
+plugins/Jobs/jobs.sqlite.db
+plugins/CoreProtect/database.db
+plugins/.paper-remapped/index.json
+plugins/spark
+plugins/CoreProtect/database.db
+plugins/Jobs/jobs.sqlite.db

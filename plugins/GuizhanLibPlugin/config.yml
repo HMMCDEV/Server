@@ -19,6 +19,7 @@ updater:
 
   # en_US, zh_CN
   lang: zh_CN
+
 # Whether to print debug messages in console.
 # 是否在控制台输出调试信息。
 debug: false
