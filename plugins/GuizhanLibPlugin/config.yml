@@ -18,8 +18,7 @@ updater:
   location: global
 
   # en_US, zh_CN
-  lang: en_US
-
+  lang: zh_CN
 # Whether to print debug messages in console.
 # 是否在控制台输出调试信息。
 debug: false
