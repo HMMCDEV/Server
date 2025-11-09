@@ -64,3 +64,6 @@ plugins/.paper-remapped/index.json
 plugins/spark
 plugins/CoreProtect/database.db
 plugins/Jobs/jobs.sqlite.db
+plugins/AuraSkills/backups/
+plugins/AuraSkills/items.yml
+plugins/AuraSkills/userdata/
