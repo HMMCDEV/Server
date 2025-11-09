@@ -2,14 +2,12 @@
 
 | 插件名称                    | 主要功能                                                                                              | 主要来源/备注                                                          |
 | --------------------------- | ----------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| **CMILib 1.5.7.1**          | 通用前置库，为多个插件提供共享功能和API支持                                                           | 通常作为其他插件依赖自动安装                                           |
 | **CommandPanels**           | 创建自定义GUI菜单，通过点击执行命令                                                                   | SpigotMC等插件市场                                                     |
 | **CoreProtect-CE-23.0**     | 数据记录与反破坏工具，支持查询和回滚操作                                                              | CoreProtect官网或GitHub                                                |
 | **EssentialsX-2.21.2**      | 服务器基础功能（家、传送、经济系统等）                                                                | EssentialsX官方页面                                                    |
 | **FreedomChat-Paper-1.7.5** | 禁用聊天举报功能，保护玩家隐私                                                                        | 插件发布页面                                                           |
 | **Geyser-Spigot**           | 允许基岩版玩家加入Java版服务器                                                                        | GeyserMC官方下载                                                       |
 | **GuizhanLibPlugin**        | 鬼斩中文社区插件前置库                                                                                | 鬼斩中文社区                                                           |
-| **Jobs Reborn 5.2.6.4**     | 职业系统，玩家通过工作获得金钱奖励                                                                    | [SpigotMC资源页](https://www.spigotmc.org/resources/jobs-reborn.4216/) |
 | **LuckPerms-Bukkit-5.5.17** | 权限管理插件，设置分组和权限                                                                          | LuckPerms官方页面                                                      |
 | **PlaceholderAPI-2.11.7**   | 变量占位符库，统一变量接口                                                                            | SpigotMC等插件市场                                                     |
 | **SlimeGlue**               | 解决Slimefun与其他插件的兼容性问题                                                                    | 随Slimefun一同下载                                                     |
