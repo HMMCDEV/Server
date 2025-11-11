@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:redstone_torch": [
+      {
+        "name": "slimefunwarfare_radio",
+        "custom_model_data": 2202014
+      }
+    ]
+  }
+}

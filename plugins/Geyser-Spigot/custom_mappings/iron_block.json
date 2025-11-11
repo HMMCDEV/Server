@@ -1,0 +1,40 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:iron_block": [
+      {
+        "name": "infinityexpansion_aluminum_singularity",
+        "custom_model_data": 2200620
+      },
+      {
+        "name": "infinityexpansion_iron_singularity",
+        "custom_model_data": 2200628
+      },
+      {
+        "name": "infinityexpansion_lead_singularity",
+        "custom_model_data": 2200630
+      },
+      {
+        "name": "infinityexpansion_machine_core",
+        "custom_model_data": 2200631
+      },
+      {
+        "name": "infinityexpansion_silver_singularity",
+        "custom_model_data": 2200638
+      },
+      {
+        "name": "infinityexpansion_tin_singularity",
+        "custom_model_data": 2200640
+      },
+      {
+        "name": "infinityexpansion_zinc_singularity",
+        "custom_model_data": 2200642
+      },
+
+      {
+        "name": "slimefunwarfare_terfenol_d_block",
+        "custom_model_data": 2200642
+      }
+    ]
+  }
+}

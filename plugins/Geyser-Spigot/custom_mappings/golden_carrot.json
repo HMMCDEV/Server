@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:golden_carrot": [
+      {
+        "name": "bump_corn_on_the_cob",
+        "custom_model_data": 2200910
+      }
+    ]
+  }
+}

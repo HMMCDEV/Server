@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:iron_ingot": [
+      {
+        "name": "infinityexpansion_machine_circuit",
+        "custom_model_data": 2200608
+      }
+    ]
+  }
+}

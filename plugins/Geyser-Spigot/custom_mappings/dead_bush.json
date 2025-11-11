@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:dead_bush": [
+      {
+        "name": "litexpansion_scrap",
+        "custom_model_data": 2200822
+      }
+    ]
+  }
+}

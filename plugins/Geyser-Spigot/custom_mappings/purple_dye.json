@@ -1,0 +1,16 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:purple_dye": [
+      {
+        "name": "litexpansion_uu_matter",
+        "custom_model_data": 2200825
+      },
+
+      {
+        "name": "slimefunwarfare_nitrogen_triiodide",
+        "custom_model_data": 2202044
+      }
+    ]
+  }
+}

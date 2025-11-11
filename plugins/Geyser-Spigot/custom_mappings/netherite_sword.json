@@ -1,0 +1,24 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:netherite_sword": [
+      {
+        "name": "infinityexpansion_blade_of_the_cosmos",
+        "custom_model_data": 2200643,
+        "texture_size": 128
+      },
+
+      {
+        "name": "foxymachines_elucidator",
+        "custom_model_data": 2201355,
+        "texture_size": 32
+      },
+
+      {
+        "name": "supreme_supreme_sword",
+        "custom_model_data": 2201900,
+        "texture_size": 128
+      }
+    ]
+  }
+}

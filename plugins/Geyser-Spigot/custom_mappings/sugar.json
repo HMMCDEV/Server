@@ -1,0 +1,24 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:sugar": [
+      {
+        "name": "exotic_garden_cornmeal",
+        "custom_model_data": 2201074
+      },
+      {
+        "name": "bump_kouxiangtang",
+        "custom_model_data": 2201406
+      },
+      {
+        "name": "bump_water_sugar",
+        "custom_model_data": 2201416
+      },
+
+      {
+        "name": "slimefunwarfare_osmium_dust",
+        "custom_model_data": 2202061
+      }
+    ]
+  }
+}

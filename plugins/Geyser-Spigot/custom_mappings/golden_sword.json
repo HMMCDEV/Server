@@ -1,0 +1,19 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:golden_sword": [
+      {
+        "name": "extra_gear_gilded_iron_sword",
+        "custom_model_data": 2201249
+      },
+      {
+        "name": "bump_guard_sword",
+        "custom_model_data": 2201427
+      },
+      {
+        "name": "bump_sky_sword",
+        "custom_model_data": 2201430
+      }
+    ]
+  }
+}

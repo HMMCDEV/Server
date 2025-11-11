@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:bow": [
+      {
+        "name": "infinityexpansion_infinity_bow",
+        "custom_model_data": 2200644
+      },
+
+      {
+        "name": "foxymachines_acri_arcum",
+        "custom_model_data": 2201352
+      },
+
+      {
+        "name": "bump_light_bow",
+        "custom_model_data": 2201422
+      },
+      {
+        "name": "bump_witherskull_row",
+        "custom_model_data": 2201423
+      }
+    ]
+  }
+}

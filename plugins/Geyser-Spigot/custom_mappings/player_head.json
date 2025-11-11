@@ -1,0 +1,640 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:player_head": [
+      {
+        "name": "infinityexpansion_infinity_capacitor",
+        "custom_model_data": 2200652
+      },
+
+      {
+        "name": "slimy_tree_taps_amber",
+        "custom_model_data": 2200800
+      },
+
+      {
+        "name": "litexpansion_thorium",
+        "custom_model_data": 2200823
+      },
+
+      {
+        "name": "exotic_garden_pinacolada",
+        "custom_model_data": 2200857
+      },
+      {
+        "name": "exotic_garden_sweetened_tea",
+        "custom_model_data": 2200868
+      },
+      {
+        "name": "exotic_garden_apple_pear_cake",
+        "custom_model_data": 2200872
+      },
+      {
+        "name": "exotic_garden_oak_apple_pie",
+        "custom_model_data": 2200873
+      },
+      {
+        "name": "exotic_garden_bacon",
+        "custom_model_data": 2200874
+      },
+      {
+        "name": "exotic_garden_bacon_burger",
+        "custom_model_data": 2200875
+      },
+      {
+        "name": "exotic_garden_bacon_cheeseburger",
+        "custom_model_data": 2200876
+      },
+      {
+        "name": "exotic_garden_bacon_sandwich",
+        "custom_model_data": 2200877
+      },
+      {
+        "name": "exotic_garden_bagel",
+        "custom_model_data": 2200878
+      },
+      {
+        "name": "exotic_garden_biscuit",
+        "custom_model_data": 2200879
+      },
+      {
+        "name": "exotic_garden_biscuits_and_country_gravy",
+        "custom_model_data": 2200880
+      },
+      {
+        "name": "exotic_garden_blackberry_cobbler",
+        "custom_model_data": 2200881
+      },
+      {
+        "name": "exotic_garden_blackberry_jelly_sandwich",
+        "custom_model_data": 2200882
+      },
+      {
+        "name": "exotic_garden_blackberry_pie",
+        "custom_model_data": 2200883
+      },
+      {
+        "name": "exotic_garden_blt_sandwich",
+        "custom_model_data": 2200884
+      },
+      {
+        "name": "exotic_garden_blueberry_cheesecake",
+        "custom_model_data": 2200885
+      },
+      {
+        "name": "exotic_garden_blueberry_jelly_sandwich",
+        "custom_model_data": 2200886
+      },
+      {
+        "name": "exotic_garden_blueberry_muffin",
+        "custom_model_data": 2200887
+      },
+      {
+        "name": "exotic_garden_blueberry_pancakes",
+        "custom_model_data": 2200888
+      },
+      {
+        "name": "exotic_garden_blueberry_pie",
+        "custom_model_data": 2200889
+      },
+      {
+        "name": "exotic_garden_boston_cream_pie",
+        "custom_model_data": 2200890
+      },
+      {
+        "name": "exotic_garden_burrito",
+        "custom_model_data": 2200891
+      },
+      {
+        "name": "exotic_garden_carrot_cake",
+        "custom_model_data": 2200892
+      },
+      {
+        "name": "exotic_garden_cheeseburger",
+        "custom_model_data": 2200893
+      },
+      {
+        "name": "exotic_garden_cheesecake",
+        "custom_model_data": 2200894
+      },
+      {
+        "name": "exotic_garden_cherry_cheesecake",
+        "custom_model_data": 2200895
+      },
+      {
+        "name": "exotic_garden_cherry_pie",
+        "custom_model_data": 2200896
+      },
+      {
+        "name": "exotic_garden_chicken_burrito",
+        "custom_model_data": 2200897
+      },
+      {
+        "name": "exotic_garden_chicken_cheeseburger",
+        "custom_model_data": 2200898
+      },
+      {
+        "name": "exotic_garden_chicken_curry",
+        "custom_model_data": 2200899
+      },
+      {
+        "name": "exotic_garden_chicken_pot_pie",
+        "custom_model_data": 2200900
+      },
+      {
+        "name": "exotic_garden_chicken_sandwich",
+        "custom_model_data": 2200901
+      },
+      {
+        "name": "exotic_garden_chickenburger",
+        "custom_model_data": 2200902
+      },
+      {
+        "name": "exotic_garden_chocolate_bar",
+        "custom_model_data": 2200903
+      },
+      {
+        "name": "exotic_garden_chocolate_cake",
+        "custom_model_data": 2200904
+      },
+      {
+        "name": "exotic_garden_chocolate_chip_muffin",
+        "custom_model_data": 2200905
+      },
+      {
+        "name": "exotic_garden_chocolate_pear_cake",
+        "custom_model_data": 2200906
+      },
+      {
+        "name": "exotic_garden_chocolate_strawberry",
+        "custom_model_data": 2200907
+      },
+      {
+        "name": "exotic_garden_club_sandwich",
+        "custom_model_data": 2200908
+      },
+      {
+        "name": "exotic_garden_coconut_chicken_curry",
+        "custom_model_data": 2200909
+      },
+      {
+        "name": "exotic_garden_cowberry_jelly_sandwich",
+        "custom_model_data": 2200911
+      },
+      {
+        "name": "exotic_garden_cowberry_pie",
+        "custom_model_data": 2200912
+      },
+      {
+        "name": "exotic_garden_cranberry_jelly_sandwich",
+        "custom_model_data": 2200913
+      },
+      {
+        "name": "exotic_garden_cranberry_pie",
+        "custom_model_data": 2200914
+      },
+      {
+        "name": "exotic_garden_cream_cookie",
+        "custom_model_data": 2200915
+      },
+      {
+        "name": "exotic_garden_creamed_corn",
+        "custom_model_data": 2200916
+      },
+      {
+        "name": "exotic_garden_deluxe_cheeseburger",
+        "custom_model_data": 2200917
+      },
+      {
+        "name": "exotic_garden_dragon_fruit_pie",
+        "custom_model_data": 2200918
+      },
+      {
+        "name": "exotic_garden_egg_salad",
+        "custom_model_data": 2200919
+      },
+      {
+        "name": "exotic_garden_elderberry_sandwich",
+        "custom_model_data": 2200920
+      },
+      {
+        "name": "exotic_garden_elderberry_pie",
+        "custom_model_data": 2200921
+      },
+      {
+        "name": "exotic_garden_fish_sandwich",
+        "custom_model_data": 2200922
+      },
+      {
+        "name": "exotic_garden_fish_taco",
+        "custom_model_data": 2200923
+      },
+      {
+        "name": "exotic_garden_fries",
+        "custom_model_data": 2200924
+      },
+      {
+        "name": "exotic_garden_garlic_bread",
+        "custom_model_data": 2200925
+      },
+      {
+        "name": "exotic_garden_garlic_cheese_bread",
+        "custom_model_data": 2200926
+      },
+      {
+        "name": "exotic_garden_grape_jelly_sandwich",
+        "custom_model_data": 2200927
+      },
+      {
+        "name": "exotic_garden_grape_pie",
+        "custom_model_data": 2200928
+      },
+      {
+        "name": "exotic_garden_grape_salad",
+        "custom_model_data": 2200929
+      },
+      {
+        "name": "exotic_garden_grilled_sandwich",
+        "custom_model_data": 2200930
+      },
+      {
+        "name": "exotic_garden_hamburger",
+        "custom_model_data": 2200931
+      },
+      {
+        "name": "exotic_garden_hot_dog",
+        "custom_model_data": 2200932
+      },
+      {
+        "name": "exotic_garden_hot_dog_bacon_wrapped_cheese_filled",
+        "custom_model_data": 2200933
+      },
+      {
+        "name": "exotic_garden_hot_dog_bbq_bacon_wrapped",
+        "custom_model_data": 2200934
+      },
+      {
+        "name": "exotic_garden_hot_dog_bbq_double_bacon_wrapped_in_a_tortilla_with_cheese",
+        "custom_model_data": 2200935
+      },
+      {
+        "name": "exotic_garden_ice_cream",
+        "custom_model_data": 2200936
+      },
+      {
+        "name": "exotic_garden_jammy_dodger",
+        "custom_model_data": 2200937
+      },
+      {
+        "name": "exotic_garden_lamington",
+        "custom_model_data": 2200938
+      },
+      {
+        "name": "exotic_garden_lasagna",
+        "custom_model_data": 2200939
+      },
+      {
+        "name": "exotic_garden_leafy_chicken_sandwich",
+        "custom_model_data": 2200940
+      },
+      {
+        "name": "exotic_garden_leafy_fish_sandwich",
+        "custom_model_data": 2200941
+      },
+      {
+        "name": "exotic_garden_lemon_pie",
+        "custom_model_data": 2200942
+      },
+      {
+        "name": "exotic_garden_lime_pie",
+        "custom_model_data": 2200943
+      },
+      {
+        "name": "exotic_garden_orange_pie",
+        "custom_model_data": 2200944
+      },
+      {
+        "name": "exotic_garden_pancakes",
+        "custom_model_data": 2200945
+      },
+      {
+        "name": "exotic_garden_pavlova",
+        "custom_model_data": 2200946
+      },
+      {
+        "name": "exotic_garden_peach_pie",
+        "custom_model_data": 2200947
+      },
+      {
+        "name": "exotic_garden_pear_pie",
+        "custom_model_data": 2200948
+      },
+      {
+        "name": "exotic_garden_plum_pie",
+        "custom_model_data": 2200949
+      },
+      {
+        "name": "exotic_garden_pomegranate_pie",
+        "custom_model_data": 2200950
+      },
+      {
+        "name": "exotic_garden_popcorn",
+        "custom_model_data": 2200951
+      },
+      {
+        "name": "exotic_garden_popcorn_salty",
+        "custom_model_data": 2200952
+      },
+      {
+        "name": "exotic_garden_popcorn_sweet",
+        "custom_model_data": 2200953
+      },
+      {
+        "name": "exotic_garden_potato_salad",
+        "custom_model_data": 2200954
+      },
+      {
+        "name": "exotic_garden_pumpkin_bread",
+        "custom_model_data": 2200955
+      },
+      {
+        "name": "exotic_garden_pumpkin_cheesecake",
+        "custom_model_data": 2200956
+      },
+      {
+        "name": "exotic_garden_pumpkin_muffin",
+        "custom_model_data": 2200957
+      },
+      {
+        "name": "exotic_garden_raspberry_jelly_sandwich",
+        "custom_model_data": 2200958
+      },
+      {
+        "name": "exotic_garden_raspberry_pie",
+        "custom_model_data": 2200959
+      },
+      {
+        "name": "exotic_garden_sandwich",
+        "custom_model_data": 2200960
+      },
+      {
+        "name": "exotic_garden_shepards_pie",
+        "custom_model_data": 2200961
+      },
+      {
+        "name": "exotic_garden_strawberry_jelly_sandwich",
+        "custom_model_data": 2200962
+      },
+      {
+        "name": "exotic_garden_strawberry_pie",
+        "custom_model_data": 2200963
+      },
+      {
+        "name": "exotic_garden_strawberry_salad",
+        "custom_model_data": 2200964
+      },
+      {
+        "name": "exotic_garden_sweet_berry_pancakes",
+        "custom_model_data": 2200965
+      },
+      {
+        "name": "exotic_garden_sweetened_pear_cheesecake",
+        "custom_model_data": 2200966
+      },
+      {
+        "name": "exotic_garden_taco",
+        "custom_model_data": 2200967
+      },
+      {
+        "name": "exotic_garden_tiramisu",
+        "custom_model_data": 2200968
+      },
+      {
+        "name": "exotic_garden_tiramisu_with_blackberries",
+        "custom_model_data": 2200969
+      },
+      {
+        "name": "exotic_garden_tiramisu_with_raspberries",
+        "custom_model_data": 2200970
+      },
+      {
+        "name": "exotic_garden_tiramisu_with_strawberries",
+        "custom_model_data": 2200971
+      },
+      {
+        "name": "exotic_garden_tomato_soup",
+        "custom_model_data": 2200972
+      },
+      {
+        "name": "exotic_garden_waffles",
+        "custom_model_data": 2200973
+      },
+      {
+        "name": "exotic_garden_apple",
+        "custom_model_data": 2200974
+      },
+      {
+        "name": "exotic_garden_black_pepper",
+        "custom_model_data": 2200976
+      },
+      {
+        "name": "exotic_garden_blackberry",
+        "custom_model_data": 2200978
+      },
+      {
+        "name": "exotic_garden_blueberry",
+        "custom_model_data": 2200980
+      },
+      {
+        "name": "exotic_garden_cabbage",
+        "custom_model_data": 2200982
+      },
+      {
+        "name": "exotic_garden_cherry",
+        "custom_model_data": 2200984
+      },
+      {
+        "name": "exotic_garden_cilantro",
+        "custom_model_data": 2200986
+      },
+      {
+        "name": "exotic_garden_coconut",
+        "custom_model_data": 2200988
+      },
+      {
+        "name": "exotic_garden_corn",
+        "custom_model_data": 2200990
+      },
+      {
+        "name": "exotic_garden_cowberry",
+        "custom_model_data": 2200992
+      },
+      {
+        "name": "exotic_garden_cranberry",
+        "custom_model_data": 2200994
+      },
+      {
+        "name": "exotic_garden_curry_leaf",
+        "custom_model_data": 2200996
+      },
+      {
+        "name": "exotic_garden_dragon_fruit",
+        "custom_model_data": 2200998
+      },
+      {
+        "name": "exotic_garden_elderberry",
+        "custom_model_data": 2201000
+      },
+      {
+        "name": "exotic_garden_garlic",
+        "custom_model_data": 2201002
+      },
+      {
+        "name": "exotic_garden_grape",
+        "custom_model_data": 2201004
+      },
+      {
+        "name": "exotic_garden_lemon",
+        "custom_model_data": 2201007
+      },
+      {
+        "name": "exotic_garden_lettuce",
+        "custom_model_data": 2201009
+      },
+      {
+        "name": "exotic_garden_lime",
+        "custom_model_data": 2201011
+      },
+      {
+        "name": "exotic_garden_mustard_seed",
+        "custom_model_data": 2201013
+      },
+      {
+        "name": "exotic_garden_onion",
+        "custom_model_data": 2201015
+      },
+      {
+        "name": "exotic_garden_orange",
+        "custom_model_data": 2201017
+      },
+      {
+        "name": "exotic_garden_peach",
+        "custom_model_data": 2201019
+      },
+      {
+        "name": "exotic_garden_pear",
+        "custom_model_data": 2201021
+      },
+      {
+        "name": "exotic_garden_pineapple",
+        "custom_model_data": 2201023
+      },
+      {
+        "name": "exotic_garden_plum",
+        "custom_model_data": 2201025
+      },
+      {
+        "name": "exotic_garden_pomegranate",
+        "custom_model_data": 2201027
+      },
+      {
+        "name": "exotic_garden_raspberry",
+        "custom_model_data": 2201029
+      },
+      {
+        "name": "exotic_garden_strawberry",
+        "custom_model_data": 2201031
+      },
+      {
+        "name": "exotic_garden_sweet_potato",
+        "custom_model_data": 2201033
+      },
+      {
+        "name": "exotic_garden_tea_leaf",
+        "custom_model_data": 2201035
+      },
+      {
+        "name": "exotic_garden_tomato",
+        "custom_model_data": 2201037
+      },
+      {
+        "name": "exotic_garden_ice_cube",
+        "custom_model_data": 2201075
+      },
+      {
+        "name": "exotic_garden_mayo",
+        "custom_model_data": 2201076
+      },
+      {
+        "name": "exotic_garden_mustard",
+        "custom_model_data": 2201077
+      },
+
+      {
+        "name": "fluffymachines_watering_can",
+        "custom_model_data": 2201294
+      },
+
+      {
+        "name": "supreme_supreme_supreme_nugget",
+        "custom_model_data": 2201550
+      },
+      {
+        "name": "supreme_supreme_core_of_block",
+        "custom_model_data": 2201561
+      },
+      {
+        "name": "supreme_supreme_core_of_death",
+        "custom_model_data": 2201562
+      },
+      {
+        "name": "supreme_supreme_core_of_life",
+        "custom_model_data": 2201563
+      },
+      {
+        "name": "supreme_supreme_core_of_color",
+        "custom_model_data": 2201564
+      },
+      {
+        "name": "supreme_supreme_core_of_nature",
+        "custom_model_data": 2201565
+      },
+      {
+        "name": "supreme_supreme_core_of_alloy",
+        "custom_model_data": 2201566
+      },
+      {
+        "name": "supreme_supreme_cetrus_lumium",
+        "custom_model_data": 2201567
+      },
+      {
+        "name": "supreme_supreme_cetrus_lux",
+        "custom_model_data": 2201568
+      },
+      {
+        "name": "supreme_supreme_cetrus_ventus",
+        "custom_model_data": 2201569
+      },
+      {
+        "name": "supreme_supreme_cetrus_ignis",
+        "custom_model_data": 2201571
+      },
+      {
+        "name": "supreme_supreme_attribute_magic",
+        "custom_model_data": 2201572
+      },
+      {
+        "name": "supreme_supreme_attribute_bomb",
+        "custom_model_data": 2201573
+      },
+      {
+        "name": "supreme_supreme_attribute_fortune",
+        "custom_model_data": 2201574
+      },
+      {
+        "name": "supreme_supreme_attribute_impetus",
+        "custom_model_data": 2201575
+      }
+    ]
+  }
+}

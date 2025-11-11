@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:iron_ore": [
+      {
+        "name": "slimefunwarfare_osmium_meteor",
+        "custom_model_data": 2202059
+      }
+    ]
+  }
+}

@@ -1,0 +1,211 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:oak_sapling": [
+      {
+        "name": "exotic_garden_apple_oak_sapling",
+        "custom_model_data": 2200975
+      },
+      {
+        "name": "exotic_garden_black_pepper_plant",
+        "custom_model_data": 2200977
+      },
+      {
+        "name": "exotic_garden_blackberry_bush",
+        "custom_model_data": 2200979
+      },
+      {
+        "name": "exotic_garden_blueberry_bush",
+        "custom_model_data": 2200981
+      },
+      {
+        "name": "exotic_garden_cabbage_plant",
+        "custom_model_data": 2200983
+      },
+      {
+        "name": "exotic_garden_cherry_sapling",
+        "custom_model_data": 2200985
+      },
+      {
+        "name": "exotic_garden_cilantro_plant",
+        "custom_model_data": 2200987
+      },
+      {
+        "name": "exotic_garden_coconut_sapling",
+        "custom_model_data": 2200989
+      },
+      {
+        "name": "exotic_garden_corn_plant",
+        "custom_model_data": 2200991
+      },
+      {
+        "name": "exotic_garden_cowberry_bush",
+        "custom_model_data": 2200993
+      },
+      {
+        "name": "exotic_garden_cranberry_bush",
+        "custom_model_data": 2200995
+      },
+      {
+        "name": "exotic_garden_curry_leaf_plant",
+        "custom_model_data": 2200997
+      },
+      {
+        "name": "exotic_garden_dragon_fruit_sappling",
+        "custom_model_data": 2200999
+      },
+      {
+        "name": "exotic_garden_elderberry_bush",
+        "custom_model_data": 2201001
+      },
+      {
+        "name": "exotic_garden_garlic_plant",
+        "custom_model_data": 2201003
+      },
+      {
+        "name": "exotic_garden_grape_bush",
+        "custom_model_data": 2201005
+      },
+      {
+        "name": "exotic_garden_lemon_sapling",
+        "custom_model_data": 2201008
+      },
+      {
+        "name": "exotic_garden_lettuce_plant",
+        "custom_model_data": 2201010
+      },
+      {
+        "name": "exotic_garden_lime_sapling",
+        "custom_model_data": 2201012
+      },
+      {
+        "name": "exotic_garden_mustard_seed_plant",
+        "custom_model_data": 2201014
+      },
+      {
+        "name": "exotic_garden_onion_plant",
+        "custom_model_data": 2201016
+      },
+      {
+        "name": "exotic_garden_orange_sapling",
+        "custom_model_data": 2201018
+      },
+      {
+        "name": "exotic_garden_peach_sapling",
+        "custom_model_data": 2201020
+      },
+      {
+        "name": "exotic_garden_pear_sapling",
+        "custom_model_data": 2201022
+      },
+      {
+        "name": "exotic_garden_pineapple_plant",
+        "custom_model_data": 2201024
+      },
+      {
+        "name": "exotic_garden_plum_sapling",
+        "custom_model_data": 2201026
+      },
+      {
+        "name": "exotic_garden_pomegranate_sapling",
+        "custom_model_data": 2201028
+      },
+      {
+        "name": "exotic_garden_raspberry_bush",
+        "custom_model_data": 2201030
+      },
+      {
+        "name": "exotic_garden_strawberry_bush",
+        "custom_model_data": 2201032
+      },
+      {
+        "name": "exotic_garden_sweet_potato_plant",
+        "custom_model_data": 2201034
+      },
+      {
+        "name": "exotic_garden_tea_leaf_plant",
+        "custom_model_data": 2201036
+      },
+      {
+        "name": "exotic_garden_tomato_plant",
+        "custom_model_data": 2201038
+      },
+      {
+        "name": "exotic_garden_coal_plant",
+        "custom_model_data": 2201040
+      },
+      {
+        "name": "exotic_garden_diamond_plant",
+        "custom_model_data": 2201042
+      },
+      {
+        "name": "exotic_garden_emerald_plant",
+        "custom_model_data": 2201044
+      },
+      {
+        "name": "exotic_garden_ender_plant",
+        "custom_model_data": 2201046
+      },
+      {
+        "name": "exotic_garden_essence_copper",
+        "custom_model_data": 2201048
+      },
+      {
+        "name": "exotic_garden_essence_silver",
+        "custom_model_data": 2201050
+      },
+      {
+        "name": "exotic_garden_glowstone_plant",
+        "custom_model_data": 2201053
+      },
+      {
+        "name": "exotic_garden_gold_plant",
+        "custom_model_data": 2201055
+      },
+      {
+        "name": "exotic_garden_iron_plant",
+        "custom_model_data": 2201057
+      },
+      {
+        "name": "exotic_garden_lapis_plant",
+        "custom_model_data": 2201059
+      },
+      {
+        "name": "exotic_garden_obsidian_plant",
+        "custom_model_data": 2201061
+      },
+      {
+        "name": "exotic_garden_plant_aluminum",
+        "custom_model_data": 2201062
+      },
+      {
+        "name": "exotic_garden_plant_copper",
+        "custom_model_data": 2201063
+      },
+      {
+        "name": "exotic_garden_plant_lead",
+        "custom_model_data": 2201064
+      },
+      {
+        "name": "exotic_garden_plant_silver",
+        "custom_model_data": 2201065
+      },
+      {
+        "name": "exotic_garden_plant_tin",
+        "custom_model_data": 2201066
+      },
+      {
+        "name": "exotic_garden_quartz_plant",
+        "custom_model_data": 2201068
+      },
+      {
+        "name": "exotic_garden_redstone_plant",
+        "custom_model_data": 2201070
+      },
+      {
+        "name": "exotic_garden_slime_plant",
+        "custom_model_data": 2201072
+      }
+    ]
+  }
+}

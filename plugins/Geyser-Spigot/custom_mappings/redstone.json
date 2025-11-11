@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:redstone": [
+      {
+        "name": "slimefunwarfare_pyro_powder",
+        "custom_model_data": 2202049
+      }
+    ]
+  }
+}

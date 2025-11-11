@@ -1,0 +1,15 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:bell": [
+      {
+        "name": "bump_appraisal",
+        "custom_model_data": 2201407
+      },
+      {
+        "name": "bump_sun_energy",
+        "custom_model_data": 2201408
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:zombie_head": [
+      {
+        "name": "bump_update_power",
+        "custom_model_data": 2201418
+      }
+    ]
+  }
+}

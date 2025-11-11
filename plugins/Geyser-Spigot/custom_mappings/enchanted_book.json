@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:enchanted_book": [
+      {
+        "name": "infinityexpansion_ender_flame",
+        "custom_model_data": 2200604
+      }
+    ]
+  }
+}

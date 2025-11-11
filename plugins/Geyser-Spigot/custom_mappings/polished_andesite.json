@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:quartz_block": [
+      {
+        "name": "infinityexpansion_quintuple_compressed_cobblestone",
+        "custom_model_data": 2200636
+      }
+    ]
+  }
+}

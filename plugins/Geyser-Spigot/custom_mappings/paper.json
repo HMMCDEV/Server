@@ -1,0 +1,39 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:paper": [
+      {
+        "name": "infinityexpansion_machine_plate",
+        "custom_model_data": 2200609
+      },
+
+      
+      {
+        "name": "slimy_tree_taps_raw_plastic",
+        "custom_model_data": 2200801
+      },
+
+      {
+        "name": "litexpansion_advanced_alloy",
+        "custom_model_data": 2200810
+      },
+      {
+        "name": "litexpansion_iridium_plate",
+        "custom_model_data": 2200816
+      },
+
+      {
+        "name": "bump_soul_paper",
+        "custom_model_data": 2201414
+      },
+      {
+        "name": "bump_appraisal_paper_armor",
+        "custom_model_data": 2201420
+      },
+      {
+        "name": "bump_appraisal_paper_damage",
+        "custom_model_data": 2201421
+      }
+    ]
+  }
+}

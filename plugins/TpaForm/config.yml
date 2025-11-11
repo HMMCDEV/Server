@@ -1,0 +1,29 @@
+# 配置文件 TpaForm Config ver 2.0.0 by RENaa_FD
+
+# 启用tpa玩家名称自动补全
+# 在遇到支持不完整玩家名的TPA插件时启用
+# 这会接管插件的名称补全
+# 此功能不影响表单内的玩家名称补全
+auto-completion-player-name: false
+
+# 启用数据统计
+metrics: true
+
+# 启用TpaHere
+enable-tpa-here: true
+
+# tpa相关的命令
+# 接受和拒绝传送的命令支持使用%s指定玩家名
+# 示例: tpaccept %s
+tpa-commands:
+  - 'tpa'
+tpa-here-commands:
+  - 'tpahere'
+tpa-accept-command: 'tpaccept'
+tpa-here-accept-command: 'tpaccept'
+tpa-deny-command: 'tpdeny'
+tpa-here-deny-command: 'tpdeny'
+
+# 接受传送的图标
+accept-form-icon: 'textures/ui/realms_green_check.png'
+deny-form-icon: 'textures/ui/realms_red_x.png'

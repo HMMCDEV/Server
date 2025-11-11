@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:pumpkin_seeds": [
+      {
+        "name": "exotic_garden_grass_seeds",
+        "custom_model_data": 2201006
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:netherite_ingot": [
+      {
+        "name": "infinityexpansion_void_ingot",
+        "custom_model_data": 2200619
+      },
+
+      {
+        "name": "slimefunwarfare_neodymium_ingot",
+        "custom_model_data": 2202067
+      },
+      {
+        "name": "slimefunwarfare_dysprosium_ingot",
+        "custom_model_data": 2202070
+      },
+      {
+        "name": "slimefunwarfare_ndfeb_alloy",
+        "custom_model_data": 2202076
+      }
+    ]
+  }
+}

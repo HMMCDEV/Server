@@ -1,0 +1,16 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:gunpowder": [
+      {
+        "name": "infinityexpansion_void_dust",
+        "custom_model_data": 2200618
+      },
+
+      {
+        "name": "slimefunwarfare_arsenic",
+        "custom_model_data": 2202046
+      }
+    ]
+  }
+}

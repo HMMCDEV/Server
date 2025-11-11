@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:leather_boots": [
+      {
+        "name": "extra_gear_copper_boots",
+        "custom_model_data": 2201209
+      }
+    ]
+  }
+}

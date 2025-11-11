@@ -1,0 +1,15 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:andesite": [
+      {
+        "name": "infinityexpansion_double_compressed_cobblestone",
+        "custom_model_data": 2200624
+      },
+      {
+        "name": "infinityexpansion_single_compressed_cobblestone",
+        "custom_model_data": 2200639
+      }
+    ]
+  }
+}

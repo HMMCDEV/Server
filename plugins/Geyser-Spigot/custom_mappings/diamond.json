@@ -1,0 +1,15 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:diamond": [
+      {
+        "name": "bump_make",
+        "custom_model_data": 2201411
+      },
+      {
+        "name": "bump_cpu",
+        "custom_model_data": 2201413
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:ender_pearl": [
+      {
+        "name": "bump_mecha_gear",
+        "custom_model_data": 2201409
+      }
+    ]
+  }
+}

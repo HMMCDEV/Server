@@ -1,0 +1,20 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:brick": [
+      {
+        "name": "infinityexpansion_adamantite",
+        "custom_model_data": 2200601
+      },
+      {
+        "name": "infinityexpansion_magsteel",
+        "custom_model_data": 2200612
+      },
+
+      {
+        "name": "slimefunwarfare_holmium_ingot",
+        "custom_model_data": 2202071
+      }
+    ]
+  }
+}

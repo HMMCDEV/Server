@@ -1,0 +1,15 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:wooden_sword": [
+      {
+        "name": "bump_bone_sword",
+        "custom_model_data": 2201425
+      },
+      {
+        "name": "bump_peach_sword",
+        "custom_model_data": 2201428
+      }
+    ]
+  }
+}

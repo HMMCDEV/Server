@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:smooth_quartz": [
+      {
+        "name": "infinityexpansion_infinity_singularity",
+        "custom_model_data": 2200627
+      }
+    ]
+  }
+}

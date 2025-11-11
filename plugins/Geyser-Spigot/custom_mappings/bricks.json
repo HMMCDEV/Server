@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:bricks": [
+      {
+        "name": "infinityexpansion_copper_singularity",
+        "custom_model_data": 2200622
+      }
+    ]
+  }
+}

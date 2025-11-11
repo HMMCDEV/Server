@@ -1,0 +1,72 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:blaze_powder": [
+      {
+        "name": "infinityexpansion_ender_essence",
+        "custom_model_data": 2200603
+      },
+
+      {
+        "name": "exotic_garden_coal_essence",
+        "custom_model_data": 2201039
+      },
+      {
+        "name": "exotic_garden_diamond_essence",
+        "custom_model_data": 2201041
+      },
+      {
+        "name": "exotic_garden_emerald_essence",
+        "custom_model_data": 2201043
+      },
+      {
+        "name": "exotic_garden_ender_essence",
+        "custom_model_data": 2201045
+      },
+      {
+        "name": "exotic_garden_essence_aluminum",
+        "custom_model_data": 2201047
+      },
+      {
+        "name": "exotic_garden_essence_lead",
+        "custom_model_data": 2201049
+      },
+      {
+        "name": "exotic_garden_essence_tin",
+        "custom_model_data": 2201051
+      },
+      {
+        "name": "exotic_garden_glowstone_essence",
+        "custom_model_data": 2201052
+      },
+      {
+        "name": "exotic_garden_gold_essence",
+        "custom_model_data": 2201054
+      },
+      {
+        "name": "exotic_garden_iron_essence",
+        "custom_model_data": 2201056
+      },
+      {
+        "name": "exotic_garden_lapis_essence",
+        "custom_model_data": 2201058
+      },
+      {
+        "name": "exotic_garden_obsidian_essence",
+        "custom_model_data": 2201060
+      },
+      {
+        "name": "exotic_garden_quartz_essence",
+        "custom_model_data": 2201067
+      },
+      {
+        "name": "exotic_garden_redstone_essence",
+        "custom_model_data": 2201069
+      },
+      {
+        "name": "exotic_garden_slime_essence",
+        "custom_model_data": 2201071
+      }
+    ]
+  }
+}

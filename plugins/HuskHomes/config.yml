@@ -7,7 +7,7 @@
 # ┗╸ Documentation: https://william278.net/docs/huskhomes/
 
 # Locale of the default language file to use. Docs: https://william278.net/docs/huskhomes/translations
-language: en-gb
+language: zh-cn
 # Whether to automatically check for plugin updates on startup
 check_for_updates: true
 # Database settings

@@ -1,0 +1,25 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:string": [
+      {
+        "name": "litexpansion_copper_cable",
+        "custom_model_data": 2200813
+      },
+      {
+        "name": "litexpansion_uninsulated_copper_cable",
+        "custom_model_data": 2200824
+      },
+
+      {
+        "name": "bump_fangbianmian",
+        "custom_model_data": 2201404
+      },
+
+      {
+        "name": "slimefunwarfare_fiber_optic_cable",
+        "custom_model_data": 2202011
+      }
+    ]
+  }
+}

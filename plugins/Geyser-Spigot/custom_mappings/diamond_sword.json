@@ -1,0 +1,29 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:diamond_sword": [
+      {
+        "name": "litexpansion_nano_blade",
+        "custom_model_data": 2200827
+      },
+
+      {
+        "name": "bump_emer_sword",
+        "custom_model_data": 2201424
+      },
+      {
+        "name": "bump_random_sword",
+        "custom_model_data": 2201426
+      },
+      {
+        "name": "bump_sky_devil_sword",
+        "custom_model_data": 2201432
+      },
+      
+      {
+        "name": "slimefunwarfare_energy_blade",
+        "custom_model_data": 2202019
+      }
+    ]
+  }
+}

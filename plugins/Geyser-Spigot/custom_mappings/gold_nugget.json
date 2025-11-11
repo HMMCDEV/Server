@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "items": {
+    "minecraft:gold_nugget": [
+      {
+        "name": "bump_old_coin",
+        "custom_model_data": 2201410
+      }
+    ]
+  }
+}
