@@ -67,3 +67,6 @@ plugins/Jobs/jobs.sqlite.db
 plugins/AuraSkills/backups/
 plugins/AuraSkills/items.yml
 plugins/AuraSkills/userdata/
+plugins/HuskHomes/HuskHomesData.db
+plugins/HuskHomes/HuskHomesData.db.bak
+plugins/LuckPerms/translations/repository/status.json
