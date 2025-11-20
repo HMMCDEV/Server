@@ -70,3 +70,5 @@ plugins/AuraSkills/userdata/
 plugins/HuskHomes/HuskHomesData.db
 plugins/HuskHomes/HuskHomesData.db.bak
 plugins/LuckPerms/translations/repository/status.json
+plugins/GrimAC/violations.sqlite
+hs_err_pid18400.log

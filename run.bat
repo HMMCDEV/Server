@@ -1,1 +1,1 @@
-java -DPaper.IgnoreJavaVersion -jar paper-1.21.8-60.jar nogui
+java -DPaper.IgnoreJavaVersion -jar paper-1.21.10-113.jar nogui
