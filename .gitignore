@@ -72,3 +72,6 @@ plugins/HuskHomes/HuskHomesData.db.bak
 plugins/LuckPerms/translations/repository/status.json
 plugins/GrimAC/violations.sqlite
 hs_err_pid18400.log
+plugins/Essentials/usermap.bin
+plugins/Essentials/uuids.bin
+*.log
