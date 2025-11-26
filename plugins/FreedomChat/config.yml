@@ -1,25 +1,22 @@
-# Whether FreedomChat should replace player (signed or unsigned) chat with
-# system messages. This is what makes chat not reportable.
+# FreedomChat 是否应该用系统消息替换玩家（已签名或未签名）聊天。
+# 这就是使聊天无法被举报的原因。
 rewrite-chat: true
 
-# Whether FreedomChat should claim to clients that secure chat is enforced.
-# With this set to true, the "Chat messages can't be verified" toast will not
-# be shown. This is, in default configurations, unrelated to allowing clients
-# not signing their messages join. In modern versions, clients also
-# require a valid access token to be present for the toast to be hidden.
-# That being said, you may still see the toast even if this option is enabled.
-# Note that enabling this option may violate Minecraft's usage guidelines.
-# See https://www.minecraft.net/en-us/usage-guidelines for more information.
+# FreedomChat 是否应该向客户端声明强制使用了安全聊天。
+# 将此设置为 true 后，将不会显示"无法验证聊天消息"的提示。
+# 在默认配置中，这与允许不签名消息的客户端加入无关。在现代版本中，客户端
+# 还需要存在有效的访问令牌才能隐藏该提示。
+# 也就是说，即使启用了此选项，您仍可能看到该提示。
+# 请注意，启用此选项可能违反 Minecraft 的使用指南。
+# 有关更多信息，请参阅 https://www.minecraft.net/en-us/usage-guidelines。
 claim-secure-chat-enforced: false
 
-# Whether to report the server as secure (disabling chat reporting) to the
-# NoChatReports client mod. This displays a green icon on the server list
-# screen and if enforce-secure-profiles is disabled the open chat screen
-# for users of the client-side mod.
+# 是否向 NoChatReports 客户端模组报告服务器是安全的（禁用聊天举报）。
+# 这会在服务器列表屏幕上显示绿色图标，并且如果 enforce-secure-profiles 被禁用，
+# 对于使用客户端模组的用户，开放的聊天屏幕也会显示该图标。
 send-prevents-chat-reports-to-client: false
 
-# Only enable chat rewriting for Bedrock. This can be desirable if secure chat
-# is supported by the server, and you want Java players to be able to use
-# features provided through the Social Interactions menu, but still want to
-# support chat from Bedrock players connected through Geyser.
+# 仅对 Bedrock 版启用聊天重写。如果服务器支持安全聊天，
+# 并且您希望 Java 版玩家能够使用社交交互菜单提供的功能，
+# 但仍希望通过 Geyser 连接的 Bedrock 玩家能够使用聊天，这可能是有用的。
 rewrite-bedrock-only: false

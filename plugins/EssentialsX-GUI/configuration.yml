@@ -1,0 +1,313 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                        基本信息                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+# 这是 EssentialsX-GUI 的配置文件
+
+# 如果您需要插件配置方面的帮助，
+# 可以加入我们的 Discord 服务器：https://discord.gg/fSzK79TAYf
+
+# 有关如何配置 EssentialsX-GUI 的更多信息，
+# 请查看我们的 Wiki：https://sniper-tvmc.gitbook.io/essentialsx-gui/configuration/main-configuration
+
+############################################################
+# +------------------------------------------------------+ #
+# |                        通用设置                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+general:
+
+  # 请不要更改此值，否则可能导致文件被重置。
+  # 默认值: "1.4"
+  configVersion: "1.4"
+
+  # 如果您希望在插件加载时看到详细的加载信息，请将此设置为 true。（卸载时也有效）
+  # 默认值: false
+  detailedLoading: false
+
+  # 是否检查插件的更新？
+  # 默认值: true
+  checkForUpdates: true
+
+  # 使用铁砧方式输入文本时的默认文本。
+  # 默认值: "Type here"
+  anvilTypeHereText: "在此输入"
+
+  # 玩家输入名称的最小和最大长度。
+  # ⚠️ 警告：玩家如果使用 EssentialsX 的默认命令可以绕过这些限制。
+  #             这仅适用于名称，不适用于显示名称、图标等。
+  # 默认值: min = 3, max = 32
+  minNameLength: 3
+  maxNameLength: 32
+
+  # 如果希望具有查看管理员视图权限的玩家在执行 /kit 命令时默认打开套件管理视图，请将此设置为 true。
+  # 默认值: false
+  openKitAdminViewByDefault: false
+
+  # 如果希望具有查看管理员视图权限的玩家在执行 /warp 命令时默认打开传送点管理视图，请将此设置为 true。
+  # 默认值: false
+  openWarpAdminViewByDefault: false
+
+############################################################
+# +------------------------------------------------------+ #
+# |                        家系统                        | #
+# +------------------------------------------------------+ #
+############################################################
+
+homes:
+
+  # 是否使用家系统功能。
+  # 这将允许玩家访问家系统的 GUI 界面。
+  # 默认值: true
+  enabled: true
+
+  # 决定玩家如何创建新家。
+  # 可用方式: "CHAT"（聊天）, "ANVIL"（铁砧）
+  createNewHomeEntryType: "CHAT"
+
+  # 决定玩家如何搜索家。
+  # 可用方式: "CHAT"（聊天）, "ANVIL"（铁砧）
+  searchHomeEntryType: "ANVIL"
+
+  # 决定玩家如何更改家的显示名称。
+  # 可用方式: "CHAT"（聊天）, "ANVIL"（铁砧）
+  changeHomeDisplayNameEntryType: "CHAT"
+
+  # 决定玩家如何更改家的图标。
+  # 可用方式: "CHAT"（聊天）, "ANVIL"（铁砧）, "GUI"（图形界面）, "ITEM_IN_HAND"（手中物品）
+  changeHomeIconEntryType: "GUI"
+
+  # 如果将 changeHomeIconEntryType 设置为 "GUI"，必须在此设置 GUI 中可用的材料列表。
+  changeHomeIconMaterialList: ["STONE", "COBBLESTONE", "DIRT", "IRON_ORE", "DIAMOND_BLOCK", "SPONGE", "ANVIL",
+                               "QUARTZ_BLOCK", "COOKED_BEEF", "APPLE", "BREAD", "WHEAT", "BOW", "IRON_SWORD",]
+
+  # 决定玩家如何删除家。
+  # 可用方式: "CHAT"（聊天）, "ANVIL"（铁砧）
+  deleteHomeEntryType: "CHAT"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                        套件系统                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+kits:
+
+  # 是否使用套件系统功能。
+  # 这将允许玩家访问套件系统的 GUI 界面。
+  # 默认值: true
+  enabled: false
+
+  # 决定玩家如何创建新套件。
+  # 可用方式: "CHAT"（聊天）, "ANVIL"（铁砧）
+  createNewKitNameEntryType: "CHAT"
+
+  # 决定玩家如何设置套件延迟。
+  # 可用方式: "CHAT"（聊天）, "ANVIL"（铁砧）
+  createNewKitDelayEntryType: "CHAT"
+
+  # 决定玩家如何搜索套件。
+  # 可用方式: "CHAT"（聊天）, "ANVIL"（铁砧）
+  searchKitEntryType: "ANVIL"
+
+  # 决定玩家如何更改套件的显示名称。
+  # 可用方式: "CHAT"（聊天）, "ANVIL"（铁砧）
+  changeKitDisplayNameEntryType: "CHAT"
+
+  # 决定玩家如何更改套件的图标。
+  # 可用方式: "CHAT"（聊天）, "ANVIL"（铁砧）, "GUI"（图形界面）, "ITEM_IN_HAND"（手中物品）
+  changeKitIconEntryType: "GUI"
+
+  # 如果将 changeKitIconEntryType 设置为 "GUI"，必须在此设置 GUI 中可用的材料列表。
+  changeKitIconMaterialList: ["STONE", "COBBLESTONE", "DIRT", "IRON_ORE", "DIAMOND_BLOCK", "SPONGE", "ANVIL",
+                              "QUARTZ_BLOCK", "COOKED_BEEF", "APPLE", "BREAD", "WHEAT", "BOW", "IRON_SWORD",]
+
+  # 决定玩家如何删除套件。
+  # 可用方式: "CHAT"（聊天）, "ANVIL"（铁砧）
+  deleteKitEntryType: "CHAT"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                        传送点系统                    | #
+# +------------------------------------------------------+ #
+############################################################
+
+warps:
+
+  # 是否使用传送点系统功能。
+  # 这将允许玩家访问传送点系统的 GUI 界面。
+  # 默认值: true
+  enabled: true
+
+  # 决定玩家如何创建新传送点。
+  # 可用方式: "CHAT"（聊天）, "ANVIL"（铁砧）
+  createNewWarpEntryType: "CHAT"
+
+  # 决定玩家如何搜索传送点。
+  # 可用方式: "CHAT"（聊天）, "ANVIL"（铁砧）
+  searchWarpEntryType: "ANVIL"
+
+  # 决定玩家如何更改传送点的显示名称。
+  # 可用方式: "CHAT"（聊天）, "ANVIL"（铁砧）
+  changeWarpDisplayNameEntryType: "CHAT"
+
+  # 决定玩家如何更改传送点的图标。
+  # 可用方式: "CHAT"（聊天）, "ANVIL"（铁砧）, "GUI"（图形界面）, "ITEM_IN_HAND"（手中物品）
+  changeWarpIconEntryType: "GUI"
+
+  # 如果将 changeWarpIconEntryType 设置为 "GUI"，必须在此设置 GUI 中可用的材料列表。
+  changeWarpIconMaterialList: ["STONE", "COBBLESTONE", "DIRT", "IRON_ORE", "DIAMOND_BLOCK", "SPONGE", "ANVIL",
+                               "QUARTZ_BLOCK", "COOKED_BEEF", "APPLE", "BREAD", "WHEAT", "BOW", "IRON_SWORD",]
+
+  # 决定玩家如何删除传送点。
+  # 可用方式: "CHAT"（聊天）, "ANVIL"（铁砧）
+  deleteWarpEntryType: "CHAT"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                        音效设置                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+sounds:
+
+  # 是否启用插件中的所有音效。
+  # 要禁用特定音效，可以将音效名称留空。
+  # 默认值: true
+  enabled: true
+
+  # 警告：此部分应遵循此网站上列出的值：
+  # - https://helpch.at/docs/1.21.5/org/bukkit/Sound.html
+  # 将 '1.21.5' 替换为您当前的 Minecraft 版本。
+
+  # 玩家打开 GUI 时播放的音效。
+  # 默认值: "BLOCK_CHEST_OPEN"
+  guiOpen: "BLOCK_CHEST_OPEN"
+
+  # 玩家点击关闭物品时播放的音效。
+  # 默认值: "BLOCK_CHEST_CLOSE"
+  guiClose: "BLOCK_CHEST_CLOSE"
+
+  # 玩家点击返回物品时播放的音效。
+  # 默认值: "ENTITY_EXPERIENCE_BOTTLE_THROW"
+  guiBack: "ENTITY_EXPERIENCE_BOTTLE_THROW"
+
+  # 玩家在 GUI 中点击交互物品时播放的音效。
+  # 默认值: "ENTITY_CHICKEN_EGG"
+  guiClick: "ENTITY_CHICKEN_EGG"
+
+  # 玩家在分页 GUI 中更改页面时播放的音效。
+  # 默认值: "ITEM_BOOK_PAGE_TURN"
+  guiPageChange: "ITEM_BOOK_PAGE_TURN"
+
+  # 玩家完成操作时播放的音效。
+  # 默认值: "ENTITY_PLAYER_LEVELUP"
+  actionSuccess: "ENTITY_PLAYER_LEVELUP"
+
+  # 玩家取消操作时播放的音效。
+  # 默认值: "ENTITY_ITEM_BREAK"
+  actionCanceled: "ENTITY_ITEM_BREAK"
+
+  # 玩家操作失败时播放的音效。
+  # 默认值: "ENTITY_VILLAGER_NO"
+  actionFailure: "ENTITY_VILLAGER_NO"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                        权限设置                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+permissions:
+
+  admin:
+
+    # 更改接收插件更新消息所需的权限。
+    # 默认值: "essentialsxgui.admin.update"
+    updateAlert: "essentialsxgui.admin.update"
+
+  commands:
+
+    # 更改访问 EssentialsX-GUI 命令所需的权限。
+    # 默认值: "essentialsxgui.command.essentialsxgui"
+    essentialsxgui: "essentialsxgui.command.essentialsxgui"
+
+    # 更改访问 EssentialsX-GUI 调试命令所需的权限。
+    # 默认值: "essentialsxgui.command.essentialsxgui.debug"
+    debugArgument: "essentialsxgui.command.essentialsxgui.debug"
+
+  guis:
+
+    # 更改以管理员模式访问套件 GUI 所需的权限。
+    # 默认值: "essentialsx.gui.kits.admin"
+    kitsAdminAccess: "essentialsxgui.kits.admin"
+
+    # 更改以管理员模式访问传送点 GUI 所需的权限。
+    # 默认值: "essentialsx.gui.warps.admin"
+    warpsAdminAccess: "essentialsxgui.warps.admin"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                        数据存储                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+storage:
+
+  # ⚠ 警告 ⚠：更改此值会将所有数据迁移到新的存储类型，
+  #              例如，如果您从 SQLite 更改为 MySQL，您的数据将被迁移到 MySQL 数据库，
+  #              因此，如果您在旧的 MySQL 数据库中有任何数据，这些数据将会丢失，
+  #              而 SQLite 数据库文件将保留在插件文件夹中，包含所有当前数据，
+  #              但不再使用。（不会被删除，如果需要可以手动删除。）
+  #
+  # 选择要用于保存数据的存储类型。
+  # 可用类型: "SQLite"（本地文件）, "MySQL", "MariaDB"（推荐使用 MariaDB）
+  # 默认值: "SQLite"
+  type: "SQLite"
+
+  mysql:
+
+    # MySQL 或 MariaDB 主机名（IP 地址或域名）。
+    host: "localhost"
+
+    # MySQL 或 MariaDB 端口。
+    port: 3306
+
+    # MySQL 或 MariaDB 数据库名称。
+    database: "minecraft_database"
+
+    # MySQL 或 MariaDB 用户名。
+    username: "minecraft_user"
+
+    # MySQL 或 MariaDB 密码。
+    password: ""
+
+    # MySQL 或 MariaDB 设置。
+    # 警告：如果您不知道自己在做什么，请不要更改此设置。
+    settings: "?useSSL=false&serverTimezone=UTC"
+
+    # 如果希望为 EssentialsX-GUI 创建的表使用自定义表前缀，请在此设置。
+    tablePrefix: "exg_"
+
+    # MySQL 或 MariaDB 的 HikariCP 连接池高级设置。
+    # 警告：如果您不知道自己在做什么，请不要更改此设置。
+    #          默认值适用于大多数服务器。
+    connectionPool:
+
+      # 连接池中的最大连接数。
+      maximumPoolSize: 10
+
+      # 连接池中的最小空闲连接数。
+      minimumIdle: 10
+
+      # 连接池中连接的最大生命周期（毫秒）。
+      maxLifetime: 1800000
+
+      # 连接池中连接的空闲超时时间（毫秒）。
+      keepaliveTime: 0
+
+      # 连接池的连接超时时间（毫秒）。
+      connectionTimeout: 5000

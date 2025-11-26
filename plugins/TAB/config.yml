@@ -1,0 +1,298 @@
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Header-&-Footer
+header-footer:
+  enabled: true
+  designs:
+    world-test:
+      display-condition: "%world%=test"
+      header:
+        - "在世界 'test' 中的测试标题"
+      footer:
+        - "在世界 'test' 中的测试页脚"
+    default:
+      header:
+        - "<#FFFFFF>&m                                                </#FFFF00>"
+        - "&3&l服务器"
+        - "&r&7&l>> %animation:Welcome%&3 &l%player%&7&l! &7&l<<"
+        - "&r&7在线玩家: &f%online%"
+        - "&6在线管理: &e%staffonline%"
+        - ""
+      footer:
+        - "%animation:time%"
+        - "&2延迟: %ping%"
+        - "&7&l 已用内存: %memory-used% MB / %memory-max% MB"
+        - ""
+        - "&r&7访问我们的网站 %animation:web%"
+        - "<#FFFFFF>&m                                                </#FFFF00>"
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Tablist-name-formatting
+tablist-name-formatting:
+  enabled: true
+  disable-condition: '%world%=disabledworld'
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Nametags
+scoreboard-teams:
+  enabled: true
+  enable-collision: true
+  invisible-nametags: false
+  # https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Sorting-players-in-tablist
+  sorting-types:
+    - "GROUPS:owner,admin,mod,helper,builder,vip,default"
+    - "PLACEHOLDER_A_TO_Z:%player%"
+  case-sensitive-sorting: true
+  can-see-friendly-invisibles: false
+  disable-condition: '%world%=disabledworld'
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Playerlist-Objective
+playerlist-objective:
+  enabled: true
+  value: "%ping%"
+  fancy-value: "&7延迟: %ping%"
+  title: "TAB" # 仅在基岩版显示
+  render-type: INTEGER
+  disable-condition: '%world%=disabledworld'
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Belowname
+belowname-objective:
+  enabled: false
+  value: "%health%"
+  title: "&c生命值"
+  fancy-value: "&c%health%"
+  fancy-value-default: "NPC"
+  disable-condition: '%world%=disabledworld'
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Spectator-fix
+prevent-spectator-effect:
+  enabled: false
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Bossbar
+bossbar:
+  enabled: false
+  toggle-command: /bossbar
+  remember-toggle-choice: false
+  hidden-by-default: false
+  bars:
+    ServerInfo:
+      style: "PROGRESS" # 适用于 1.9+: PROGRESS, NOTCHED_6, NOTCHED_10, NOTCHED_12, NOTCHED_20
+      color: "%animation:barcolors%" # 适用于 1.9+: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
+      progress: "100" # 百分比
+      text: "&f网站: &bwww.domain.com"
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Scoreboard
+scoreboard:
+  enabled: true
+  toggle-command: /sb
+  remember-toggle-choice: false
+  hidden-by-default: false
+  use-numbers: true
+  static-number: 0
+  delay-on-join-milliseconds: 0
+  scoreboards:
+    scoreboard-1.20.3+:
+      title: "<#E0B11E>服务器</#FF0000>"
+      display-condition: "%player-version-id%>=765;%bedrock%=false" # 仅对使用 1.20.3+ 且非基岩版的玩家显示
+      lines:
+        - "&7%date%"
+        - "%animation:MyAnimation1%"
+        - "&6在线统计:"
+        - "* &e总在线&7:||%online%"
+        - "* &e当前世界&7:||%worldonline%"
+        - "* &e管理在线&7:||%staffonline%"
+        - ""
+        - "&6个人信息:"
+        - "* &b等级&7:||%group%"
+        - "* &b延迟&7:||%ping%&8ms"
+        - "* &b世界&7:||%world%"
+        - "%animation:MyAnimation1%"
+    scoreboard:
+      title: "<#E0B11E>服务器</#FF0000>"
+      lines:
+        - "&7%date%"
+        - "%animation:MyAnimation1%"
+        - "&6在线统计:"
+        - "* &e总在线&7: &f%online%"
+        - "* &e当前世界&7: &f%worldonline%"
+        - "* &e管理在线&7: &f%staffonline%"
+        - ""
+        - "&6个人信息:"
+        - "* &b等级&7: &f%group%"
+        - "* &b延迟&7: &f%ping%&8ms"
+        - "* &b世界&7: &f%world%"
+        - "%animation:MyAnimation1%"
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Layout
+layout:
+  enabled: false
+  direction: COLUMNS
+  default-skin: mineskin:37e93c8e12cd426cb28fce31969e0674
+  enable-remaining-players-text: true
+  remaining-players-text: '... 还有 %s 个玩家'
+  empty-slot-ping-value: 1000
+  layouts:
+    default:
+      fixed-slots:
+        - '1|&3网站&f:'
+        - '2|&bmyserver.net'
+        - '3|&8&m                       '
+        - '4|&3名称&f:'
+        - '5|&b%player%'
+        - '7|&3等级&f:'
+        - '8|等级: %group%'
+        - '10|&3世界&f:'
+        - '11|&b%world%'
+        - '13|&3时间&f:'
+        - '14|&b%time%'
+        - '21|&3TeamSpeak&f:'
+        - '22|&bts.myserver.net'
+        - '23|&8&m                       '
+        - '41|&3商店&f:'
+        - '42|&bshop.myserver.net'
+        - '43|&8&m                       '
+      groups:
+        staff:
+          condition: permission:tab.staff
+          slots:
+            - 24-40
+        players:
+          slots:
+            - 44-80
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Ping-Spoof
+ping-spoof:
+  enabled: false
+  value: 0
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Global-playerlist
+global-playerlist:
+  enabled: false
+  display-others-as-spectators: false
+  display-vanished-players-as-spectators: true
+  isolate-unlisted-servers: false
+  update-latency: false
+  spy-servers:
+    - spyserver1
+    - spyserver2
+  server-groups:
+    lobbies:
+      - lobby1
+      - lobby2
+    group2:
+      - server1
+      - server2
+
+placeholders:
+  date-format: "yyyy/MM/dd"
+  time-format: "[HH:mm:ss / h:mm a]"
+  time-offset: 0
+  register-tab-expansion: false
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Placeholder-output-replacements
+placeholder-output-replacements:
+  "%essentials_vanished%":
+    "yes": "&7| 隐身中"
+    "no": ""
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Conditional-placeholders
+conditions:
+  nick: # 使用 %condition:nick% 调用
+    conditions:
+      - "%player%=%essentials_nickname%"
+    yes: "%player%"
+    no: "~%essentials_nickname%"
+
+placeholder-refresh-intervals:
+  default-refresh-interval: 500
+  "%server_uptime%": 1000
+  "%server_tps_1_colored%": 1000
+  "%server_unique_joins%": 5000
+  "%player_health%": 200
+  "%player_ping%": 1000
+  "%vault_prefix%": 1000
+  "%rel_factionsuuid_relation_color%": 1000
+
+# 通过权限节点分配组，而不是从权限插件获取
+assign-groups-by-permissions: false
+
+# 如果上面的选项为 true，所有组都基于权限获取，列表中位置更高的组将被用作主组
+# 警告！这不是排序列表，与在标签列表中排序玩家无关！
+primary-group-finding-list:
+  - Owner
+  - Admin
+  - Mod
+  - Helper
+  - default
+
+# 刷新间隔（毫秒）：
+# - 条件/排序中的权限检查
+# - 从权限插件获取组以进行排序/每组属性
+# - 从权限插件获取前缀/后缀占位符
+permission-refresh-interval: 1000
+
+# 解锁额外的控制台消息
+debug: false
+
+# https://github.com/NEZNAMY/TAB/wiki/MySQL
+mysql:
+  enabled: false
+  host: 127.0.0.1
+  port: 3306
+  database: tab
+  username: user
+  password: password
+  useSSL: true
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Multi-server-support
+proxy-support:
+  enabled: true
+  # 支持的类型: PLUGIN, REDIS, RABBITMQ
+  type: PLUGIN
+  plugin:
+    # 兼容的插件: RedisBungee
+    # 如果启用并找到兼容插件，将启用钩子以与代理玩家一起工作
+    name: RedisBungee
+  redis:
+    url: 'redis://:password@localhost:6379/0'
+  rabbitmq:
+    exchange: 'plugin'
+    url: 'amqp://guest:guest@localhost:5672/%2F'
+
+components:
+  minimessage-support: true
+  disable-shadow-for-heads: true
+
+# 内部值，请勿更改
+config-version: 2
+
+########################################################################
+# BUKKIT ONLY - THE FOLLOWING SECTION IS ONLY FOR BACKEND INSTALLATION #
+########################################################################
+
+# https://github.com/NEZNAMY/TAB/wiki/Feature-guide:-Per-world-playerlist
+per-world-playerlist:
+  enabled: false
+  # 拥有 tab.staff 权限的玩家总是能看到所有玩家
+  allow-bypass-permission: false
+  # 这些世界中的玩家总是能看到所有玩家
+  ignore-effect-in-worlds:
+    - ignoredworld
+    - build
+  shared-playerlist-world-groups:
+    lobby:
+      - lobby1
+      - lobby2
+    minigames:
+      - paintball
+      - bedwars
+
+compensate-for-packetevents-bug: false
+
+#####################################################################
+# PROXY ONLY - THE FOLLOWING SECTION IS ONLY FOR PROXY INSTALLATION #
+#####################################################################
+
+# 从后端服务器获取权限和组，而不是从代理获取
+use-bukkit-permissions-manager: false
+
+# 有时服务器可能在标签列表中使用离线 UUID 而不是在线 UUID，例如禁用 waterfall 的标签列表重写选项
+# 如果遇到标签列表格式化不工作的问题，请切换此选项（设置为相反的值）
+# 仅影响启用在线模式的代理
+use-online-uuid-in-tablist: true

@@ -1,0 +1,147 @@
+############################################################
+# +------------------------------------------------------+ #
+# |                        基本信息                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+# 这是 EssentialsX-GUI 的消息文件
+
+# 如果您需要插件配置方面的帮助，
+# 可以加入我们的 Discord 服务器：https://discord.gg/fSzK79TAYf
+
+# 获取更多翻译版本，
+# 请查看我们的 Wiki：https://sniper-tvmc.gitbook.io/essentialsx-gui/configuration/messages
+
+############################################################
+# +------------------------------------------------------+ #
+# |                        通用设置                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+# 请不要更改此值，否则可能导致文件被重置。
+# 默认值: "1.4"
+messages-version: "1.4"
+
+# 更改在大多数发送消息开头显示的前缀。
+# 提示：在任何消息中使用 {prefix} 来包含此前缀。
+prefix: "&8[&6&LEXG&8]&7"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                      管理员消息                      | #
+# +------------------------------------------------------+ #
+############################################################
+
+admin:
+
+  filesReloading: "{prefix} &e正在重新加载文件..."
+  filesReloaded: "{prefix} &e文件已重新加载。如果遇到任何错误，请检查控制台。"
+
+  # 可用占位符: {currentVersion}, {latestVersion}
+  alertUpdateAvailable: "{prefix} &eEssentialsX-GUI 有可用的更新。&6请检查控制台获取更多信息。"
+
+  databaseReloading: "{prefix} &e正在重新加载数据库..."
+  # 可用占位符: {newStorageType}
+  databaseReloaded: "{prefix} &e数据库已重新加载。存储类型为 &f{newStorageType}&e。"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                      错误消息                        | #
+# +------------------------------------------------------+ #
+############################################################
+
+errors:
+
+  invalidMaterial: "&c材料名称无效。"
+  invalidNumber: "&c输入的不是有效数字。"
+  # 可用占位符: {min}, {max}
+  lengthLimit: "&c输入长度应在 &f{min}&c 到 &f{max} &c个字符之间。"
+
+  # 可用占位符: {argument}
+  argumentNotFound: "{prefix} &c未找到参数 &f{argument}&c。"
+  noPermission: "{prefix} &c您没有执行此操作的权限。"
+  onlyForPlayers: "{prefix} &c此命令只能由玩家执行。"
+
+  homeDeleteError: "&c删除家时发生错误。请联系服务器管理员。"
+  homeNameAlreadyExists: "&c已存在同名的家。"
+  homeLimitReached: "&c您已达到允许的最大家数量。"
+  noHomeFound: "&c未找到该名称的家。"
+  itemCantBeAir: "&c物品不能是空气。请手持一个物品并重试。"
+
+  kitNameAlreadyExists: "&c已存在同名的套件。"
+  noKitFound: "&c未找到该名称的套件。"
+
+  warpCreationError: "&c创建传送点时发生错误。请联系服务器管理员。"
+  warpDeleteError: "&c删除传送点时发生错误。请联系服务器管理员。"
+  noWarpFound: "&c未找到该名称的传送点。"
+
+############################################################
+# +------------------------------------------------------+ #
+# |                      通用消息                        | #
+# +------------------------------------------------------+ #
+############################################################
+
+general:
+
+  enterNewDisplayNameInChat: "&e请在聊天中输入新的 &f显示名称&e。&7&o输入 'cancel' 取消操作。"
+  enterNewIconNameInChat: "&e请在聊天中输入新的 &f图标名称&e。&7&o输入 'cancel' 取消操作。"
+  enterNewDisplayName: "输入新的显示名称"
+  enterNewIconName: "输入新的图标名称"
+
+  enterNewHomeNameInChat: "&e请在聊天中输入新的 &f家名称&e。&7&o输入 'cancel' 取消操作。"
+  enterNewHomeName: "输入新的家名称"
+  searchHomeInChat: "&e请在聊天中输入 &f家名称 &e的前几个字母。&7&o输入 'cancel' 取消操作。"
+  searchHome: "搜索家"
+  # 可用占位符: {homeName}
+  confirmDeleteHomeInChat: "&6您确定要删除这个家吗？({homeName}) &7输入 &f'confirm' &7确认或 &f'cancel' &7取消。"
+  confirmDeleteHome: "输入 'confirm' 确认删除"
+
+  enterNewKitNameInChat: "&e请在聊天中输入新的 &f套件名称&e。&7&o输入 'cancel' 取消操作。"
+  enterNewKitDelayInChat: "&e请在聊天中输入新的 &f套件延迟&e。&7&o输入 'cancel' 取消操作。"
+  enterNewKitName: "输入新的套件名称"
+  enterNewKitDelay: "输入新的套件延迟"
+  searchKitInChat: "&e请在聊天中输入 &f套件名称 &e的前几个字母。&7&o输入 'cancel' 取消操作。"
+  searchKit: "搜索套件"
+  # 可用占位符: {kitName}
+  confirmDeleteKitInChat: "&6您确定要删除 '({kitName})' 套件吗？&7输入 &f'confirm' &7确认或 &f'cancel' &7取消。"
+  confirmDeleteKit: "输入 'confirm' 确认删除"
+
+  enterNewWarpNameInChat: "&e请在聊天中输入新的 &f传送点名称&e。&7&o输入 'cancel' 取消操作。"
+  enterNewWarpName: "输入新的传送点名称"
+  searchWarpInChat: "&e请在聊天中输入 &f传送点名称 &e的前几个字母。&7&o输入 'cancel' 取消操作。"
+  searchWarp: "搜索传送点"
+  # 可用占位符: {warpName}
+  confirmDeleteWarpInChat: "&6您确定要删除这个传送点吗？({warpName}) &7输入 &f'confirm' &7确认或 &f'cancel' &7取消。"
+  confirmDeleteWarp: "输入 'confirm' 确认删除"
+
+  actionCanceled: "&6操作已取消。"
+  actionExpired: "&c操作已过期。请重试。"
+  ongoingAction: "&e已有操作正在进行中。请等待其完成或取消。"
+
+  # 可用占位符: {newDisplayName}
+  displayNameChanged: "&7显示名称已更改为 &f{newDisplayName}&7。"
+  # 可用占位符: {newIcon}
+  iconChanged: "&7图标已更改为 &f{newIcon}&7。"
+
+  # 可用占位符: {homeName}
+  homeCreated: "&7家 &f{homeName} &7已创建。"
+  # 可用占位符: {homeName}
+  homeDeleted: "&7家 &f{homeName} &7已删除。"
+
+  # 可用占位符: {kitName}
+  kitDeleted: "&7套件 &f{kitName} &7已删除。"
+  # 可用占位符: {kitName}, {kitDelay}
+  kitCreated: "&7套件 &f{kitName} &7已创建，延迟为 &f{kitDelay} 秒&7。"
+
+  # 可用占位符: {warpName}
+  warpCreated: "&7传送点 &f{warpName} &7已创建。"
+  # 可用占位符: {warpName}
+  warpDeleted: "&7传送点 &f{warpName} &7已删除。"
+
+  openingHomesInventory: "&a正在打开家列表..."
+
+  openingAdminKitsInventory: "&a正在打开套件（管理员模式）列表..."
+  openingPlayerKitsInventory: "&a正在打开套件（玩家模式）列表..."
+
+  openingAdminWarpsInventory: "&a正在打开传送点（管理员模式）列表..."
+  openingPlayerWarpsInventory: "&a正在打开传送点（玩家模式）列表..."

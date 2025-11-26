@@ -54,16 +54,11 @@ Thumbs.db
 #粘液科技数据文件夹
 data-storage/
 
-plugins/Jobs/jobs.sqlite.db
 plugins/Essentials/userdata/
-plugins/CoreProtect/database.db
-plugins/LuckPerms/luckperms-h2-v2.mv.db
-plugins/Jobs/jobs.sqlite.db
 plugins/CoreProtect/database.db
 plugins/.paper-remapped/index.json
 plugins/spark
 plugins/CoreProtect/database.db
-plugins/Jobs/jobs.sqlite.db
 plugins/AuraSkills/backups/
 plugins/AuraSkills/items.yml
 plugins/AuraSkills/userdata/
@@ -71,7 +66,9 @@ plugins/HuskHomes/HuskHomesData.db
 plugins/HuskHomes/HuskHomesData.db.bak
 plugins/LuckPerms/translations/repository/status.json
 plugins/GrimAC/violations.sqlite
-hs_err_pid18400.log
 plugins/Essentials/usermap.bin
 plugins/Essentials/uuids.bin
 *.log
+plugins/EssentialsX-GUI/database.sqlite
+plugins/TAB/skincache.yml
+plugins/TAB/playerdata.yml

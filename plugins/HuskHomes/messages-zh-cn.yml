@@ -50,7 +50,7 @@ locales:
     %2%](#477fff-#5286ff show_text=&#3b76ff&服务器: \n&8家所在的服务器)'
   edit_home_menu_coordinates: '[⚐ x: %1%, y: %2%, z: %3%](#ffc43b-#f5c962 show_text=&#ffc43b&坐标:\n&8家在世界上的位置\n&8偏航:
     %4%, 俯仰: %5%)\n'
-  edit_home_menu_use_buttons: '[使用:](gray) [[⏩ 传送]](#00fb9a show_text=&7点击传送到这个家 run_command=/huskhomes:home
+  edit_home_menu_use_buttons: '[使用:](gray) [[⏩ 传送]](#00fb9a show_text=&7点击传送(仅Java版)到这个家 run_command=/huskhomes:home
     %1%)'
   edit_home_menu_manage_buttons: '[管理:](gray) [[❌ 删除]](#ff3300 show_text=&7点击删除这个家\n&#ff3300&⚠
     此操作无法撤消! suggest_command=/huskhomes:delhome %1%)   [[⚐ 迁移]](#ffc43b-#f5c962 show_text=&7点击将这个家修改到你当前的位置
@@ -85,7 +85,7 @@ locales:
     %2%](#477fff-#5286ff show_text=&#3b76ff&服务器:\n&8设置地标的服务器)'
   edit_warp_menu_coordinates: '[⚐ x: %1%, y: %2%, z: %3%](#ffc43b-#f5c962 show_text=&#ffc43b&坐标:\n&8地标在世界上的位置\n&8偏航:
     %4%, 俯仰: %5%)\n'
-  edit_warp_menu_use_buttons: '[使用:](gray) [[⏩ 传送]](#00fb9a show_text=&7点击传送到地标 run_command=/huskhomes:warp
+  edit_warp_menu_use_buttons: '[使用:](gray) [[⏩ 传送]](#00fb9a show_text=&7点击传送(仅Java版)到地标 run_command=/huskhomes:warp
     %1%)'
   edit_warp_menu_manage_buttons: '[管理:](gray) [[❌ 删除]](#ff3300 show_text=&7点击删除此地标\n&#ff3300&⚠
     此操作无法撤消! suggest_command=/huskhomes:delwarp %1%)   [[⚐ 迁移]](#ffc43b-#f5c962 show_text=&7点击将地标修改到你当前的位置
@@ -147,7 +147,7 @@ locales:
   economy_action_spawn_teleport: 传送到重生点
   economy_action_send_teleport_request: 发送传送请求
   economy_action_accept_teleport_request: 接受传送请求
-  return_by_death_notification: '[回到上一个位置?](gray) [[⏪ 点击传送]](#00fb9a show_text=&#00fb9a&点击传送\n&7返回上一位置
+  return_by_death_notification: '[回到上一个位置?](gray) [[⏪ 点击传送(仅Java版)]](#00fb9a show_text=&#00fb9a&点击传送(仅Java版)\n&7返回上一位置
     run_command=/huskhomes:back)'
   map_hook_public_homes_marker_set_name: 公共的家
   map_hook_warps_marker_set_name: 地标

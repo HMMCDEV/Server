@@ -1,0 +1,110 @@
+MyAnimation1:
+  change-interval: 100
+  texts:
+    - '&d-&3--------------'
+    - '&3-&d-&3-------------'
+    - '&3--&d-&3------------'
+    - '&3---&d-&3-----------'
+    - '&3----&d-&3----------'
+    - '&3-----&d-&3---------'
+    - '&3------&d-&3--------'
+    - '&3-------&d-&3-------'
+    - '&3--------&d-&3------'
+    - '&3---------&d-&3-----'
+    - '&3----------&d-&3----'
+    - '&3-----------&d-&3---'
+    - '&3------------&d-&3--'
+    - '&3-------------&d-&3-'
+    - '&3--------------&d-'
+    - '&3-------------&d-&3-'
+    - '&3------------&d-&3--'
+    - '&3-----------&d-&3---'
+    - '&3----------&d-&3----'
+    - '&3---------&d-&3-----'
+    - '&3--------&d-&3------'
+    - '&3-------&d-&3-------'
+    - '&3------&d-&3--------'
+    - '&3-----&d-&3---------'
+    - '&3----&d-&3----------'
+    - '&3---&d-&3-----------'
+    - '&3--&d-&3------------'
+    - '&3-&d-&3-------------'
+    - '&d-&3--------------'
+ServerName:
+  change-interval: 300
+  texts:
+  - '&c&lServerName'
+  - '&c&n&lServerName'
+  - '&b&lServerName'
+  - '&b&l&nServerName'
+  - '&e&lServerName'
+  - '&e&n&lServerName'
+web:
+  change-interval: 200
+  texts:
+  texts:
+  - '&edocs.hmmc.top'
+  - '&edocs.hmmc.top'
+  - '&edocs.hmmc.top'
+  - '&edocs.hmmc.top'
+  - '&edocs.hmmc.top'
+  - '&edocs.hmmc.top'
+  - '&6d&eocs.hmmc.top'
+  - '&ed&6o&ecs.hmmc.top'
+  - '&edo&6c&es.hmmc.top'
+  - '&edoc&6s&e.hmmc.top'
+  - '&edocs&6.&ehmmc.top'
+  - '&edocs.&6h&emmc.top'
+  - '&edocs.h&6m&emc.top'
+  - '&edocs.hm&6m&ec.top'
+  - '&edocs.hmm&6c&e.top'
+  - '&edocs.hmmc&6.&etop'
+  - '&edocs.hmmc.&6t&eop'
+  - '&edocs.hmmc.t&6o&ep'
+  - '&edocs.hmmc.to&6p'
+  - '&edocs.hmmc.top'
+  - '&edocs.hmmc.top'
+  - '&edocs.hmmc.top'
+  - '&edocs.hmmc.top'
+  - '&edocs.hmmc.top'
+  - '&edocs.hmmc.top'
+vote:
+  change-interval: 1000
+  texts:
+  - '&avote.domain.com'
+  - '&a&nvote.domain.com'
+  - '&5vote.domain.com'
+  - '&5&nvote.domain.com'
+Welcome:
+  change-interval: 400
+  texts:
+  - '&7&lW_'
+  - '&7&lW_'
+  - '&7&lWe_'
+  - '&7&lWel_'
+  - '&7&lWelc_'
+  - '&7&lWelco_'
+  - '&7&lWelcom_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcome_'
+  - '&7&lWelcom_'
+  - '&7&lWelco_'
+  - '&7&lWelc_'
+  - '&7&lWel_'
+  - '&7&lWe_'
+  - '&7&lW_'
+  - '&7&lW_'
+time:
+  change-interval: 3000
+  texts:
+    - '&7Time &b%time%'
+    - '&7Date &b%date%'
+barcolors:
+  change-interval: 1000
+  texts:
+    - RED
+    - BLUE
+    - GREEN
+    - YELLOW

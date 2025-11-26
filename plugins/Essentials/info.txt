@@ -1,0 +1,64 @@
+这是信息文件。
+
+此文件格式适用于以下文件：
+info.txt, motd.txt, help.txt, custom.txt 和 rules.txt
+
+您可以为特定用户或群组创建专属文件：
+将其命名为 info_用户名.txt 或 info_群组名.txt
+
+此功能也适用于其他文件。
+
+额外页面：
+输入 /info Colors
+输入 /info Tags
+
+如果您在游戏内查看此文件时遇到问题，请尝试使用 /einfo。
+如果这有效，说明有其他命令阻塞了 /info 命令。
+
+文件可以包含如下所示的章节：
+
+#第一章
+以 # 开头的行表示开始新章节
+用户需要输入 /info 第一章 来阅读此章节
+
+如果文件以 # 开头，当用户未指定章节时，
+系统将显示章节选择界面。
+
+#颜色代码
+Minecraft 颜色代码：
+&0 &&0  &1 &&1  &2 &&2  &3 &&3
+&4 &&4  &5 &&5  &6 &&6  &7 &&7
+&8 &&8  &9 &&9  &a &&a  &b &&b
+&c &&c  &d &&d  &e &&e  &f &&f
+&0 
+&&k &k魔法文字&r   &&l &l粗体
+&&m &m删除线&r  &&n &n下划线
+&&o &o斜体&r   &&r &r重置样式
+
+#变量标签
+&6玩家显示名称：&r {PLAYER}, {DISPLAYNAME}
+&6玩家用户名：&r {USERNAME}
+&6玩家昵称：&r {NICKNAME}
+&6玩家前缀：&r {PREFIX}
+&6玩家后缀：&r {SUFFIX}
+&6玩家主群组：&r {GROUP}
+&6玩家余额：&r {BALANCE}
+&6玩家未读邮件：&r {MAILS}
+&6玩家游戏时长：&r {PLAYTIME}
+&6玩家坐标：&r {COORDS}
+&6玩家当前世界：&r {WORLD}, {WORLDNAME}
+&6在线非隐藏玩家数量：&r {ONLINE}
+&6加入过服务器的独立玩家数量：&r {UNIQUE}
+&6世界列表：&r {WORLDS}
+&6在线玩家列表：&r {PLAYERLIST}
+&6服务器时间：&r {TIME}
+&6服务器日期：&r {DATE}
+&6世界时间（12小时制）：&r {WORLDTIME12}
+&6世界时间（24小时制）：&r {WORLDTIME24}
+&6世界日期：&r {WORLDDATE}
+&6服务器TPS：&r {TPS}
+&6服务器运行时间：&r {UPTIME}
+&6服务器IP：&r {IP}
+&6服务器地址：&r {ADDRESS}
+&6插件列表：&r {PLUGINS}
+&6CraftBukkit版本：&r {VERSION}

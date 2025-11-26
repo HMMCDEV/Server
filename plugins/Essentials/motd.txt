@@ -1,4 +1,4 @@
-&6Welcome, {PLAYER}&6!
-&6Type &c/help&6 for a list of commands.
-&6Type &c/list&6 to see who else is online.
-&6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}
+&6喜迎贵客，{PLAYER}&6！
+&6请输入 &c/help &6以查阅指令清单
+&6请输入 &c/list &6以观在线同仁
+&6在线人数:&c {ONLINE} &6- 辰光:&c {WORLDTIME12}

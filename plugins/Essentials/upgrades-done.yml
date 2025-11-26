@@ -13,3 +13,4 @@ updateUsersMailList: true
 updateRandomTeleport: true
 movemotdToFile: true
 moverulesToFile: true
+updatePurgeBrokenNpcAccounts: true
