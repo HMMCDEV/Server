@@ -1,9 +1,9 @@
 # 服务器插件列表
 
 ## 📋 插件概览
-**总插件数**: 22个  
+**总插件数**: 23个  
 **Paper插件**: 2个  
-**Bukkit插件**: 20个
+**Bukkit插件**: 21个
 
 ## 🎯 Paper 插件 (2个)
 
@@ -12,14 +12,15 @@
 | **CommandPanels** | 自定义GUI菜单系统，可通过配置文件创建功能丰富的用户界面 |
 | **HuskHomes** | 轻量级的家系统和传送管理，提供更好的传送体验 |
 
-## 🔧 Bukkit 插件 (20个)
+## 🔧 Bukkit 插件 (21个)
 
 | 插件名称 | 简介 |
 |---------|------|
 | **AuraSkills** | 技能系统，为玩家提供等级、属性和技能成长体系 |
 | **CoreProtect** | 数据记录与反破坏工具，支持方块操作查询和回滚 |
-| **Essentials** | 服务器基础功能插件，提供经济、管理等核心功能 |
-| **EssentialsX-GUI** | Essentials的图形界面扩展，提供更好的用户交互体验 |
+| **Essentials** | 服务器基础功能插件，提供经济、传送、家等核心功能 |
+| **EssentialsChat** | Essentials的聊天管理模块，提供聊天格式和过滤功能 |
+| **EssentialsX-GUI** | Essentials的图形界面扩展，提供现代化的GUI操作体验 |
 | **floodgate** | 基岩版支持插件，允许基岩版玩家无需Java正版账号加入 |
 | **FreedomChat** | 聊天自由插件，禁用Minecraft的聊天举报系统 |
 | **Geyser-Spigot** | 跨平台支持，让基岩版玩家可以加入Java版服务器 |
@@ -43,7 +44,7 @@
 - LuckPerms (权限管理)
 - Vault (API接口)
 - Hurricane (性能优化)
-- Essentials (基础功能)
+- Essentials + EssentialsX-GUI (基础功能与界面)
 
 ### **游戏玩法**
 - AuraSkills (技能系统)
@@ -56,26 +57,28 @@
 
 ### **管理工具**
 - CoreProtect (数据记录)
-- FreedomChat (聊天管理)
 - GrimAC (反作弊)
+- FreedomChat (聊天管理)
 
 ### **用户界面**
 - CommandPanels (GUI菜单)
 - TpaForm (表单传送)
 - TAB (侧边栏和玩家列表)
 - EssentialsX-GUI (Essentials图形界面)
-- PlaceholderAPI (变量支持)
+- EssentialsChat (聊天格式管理)
 
 ### **支持库**
 - GuizhanLibPlugin (前置库)
 - SlimeGlue (兼容性)
+- PlaceholderAPI (变量支持)
 
 ## 🔄 插件协同说明
 
-### **Essentials + HuskHomes 协同**
-- Essentials 提供经济系统和基础管理功能
-- HuskHomes 专注于家和传送系统，提供更好的用户体验
-- EssentialsX-GUI 为Essentials提供现代化的图形界面
+### **Essentials 全家桶协同**
+- Essentials (核心功能)
+- EssentialsChat (聊天管理)
+- EssentialsX-GUI (图形界面)
+- 三者结合提供完整的Essentials体验
 
 ### **跨平台完整支持**
 - Geyser + floodgate + Via系列 提供完整的跨版本、跨平台支持
@@ -96,3 +99,4 @@
 - GrimAC 提供强大的反作弊保护
 - CoreProtect 确保数据安全和可追溯性
 - Hurricane 持续优化服务器性能
+- FreedomChat 保护玩家聊天隐私
