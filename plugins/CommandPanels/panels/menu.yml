@@ -1,0 +1,53 @@
+title: '&3&l主菜单'
+type: inventory
+rows: 3
+command: cd
+layout:
+  '10':
+    - 传送
+  '12':
+    - 技能
+  '14':
+    - 粘液科技
+  '16':
+    - 家
+items:
+  background_glass:
+    material: BLACK_STAINED_GLASS_PANE
+    name: ' '
+  传送:
+    material: ENDER_PEARl
+    name: '&a&l随机传送'
+    lore:
+      - '&7随机传送'
+      - '&e随机传送'
+    left-click:
+      commands:
+        - '[chat] /tpr'
+  技能:
+    material: IRON_PICKAXE
+    name: '&2&l技能'
+    lore:
+      - '&7技能'
+      - '&e技能'
+    left-click:
+      commands:
+        - '[chat] /skill'
+  家:
+    material: GRASS_BLOCK
+    name: '&b&l出生点'
+    lore:
+      - '&7出生点'
+      - '&e出生点'
+    left-click:
+      commands:
+        - '[chat] /home'
+  粘液科技:
+    material: SLIME_BALL
+    name: '&e&l粘液科技'
+    lore:
+      - '&7粘液科技'
+      - '&e粘液科技'
+    left-click:
+      commands:
+        - '[chat] /slimefun'
