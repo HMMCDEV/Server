@@ -1,0 +1,41 @@
+title: '&3&l菜单'
+type: inventory
+floodgate: floodgate_simple
+rows: 3
+layout:
+  '10':
+    - 随机传送
+  '13':
+    - 出生点
+  '16':
+    - 粘液科技
+items:
+  随机传送:
+    material: ENDER_PEARL
+    name: '&a&l随机传送'
+    lore:
+      - '&7'
+      - '&e'
+    left-click:
+      commands:
+        - '[chat] /rtp'
+      fail: []
+  出生点:
+    material: GRASS_BLOCK
+    name: '&b&l出生点'
+    lore:
+      - '&7'
+      - '&e'
+    left-click:
+      commands:
+        - '[chat] /spawn'
+  粘液科技:
+    material: SLIME_BALL
+    name: '&e&l粘液科技'
+    lore:
+      - '&7'
+      - '&e'
+    left-click:
+      commands:
+        - '[chat] /slimefun guide'
+command: cd

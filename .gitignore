@@ -1,4 +1,5 @@
 .console_history
+*.log
 banned-ips.json
 banned-players.json
 bukkit.yml
@@ -40,6 +41,7 @@ plugins/Hurricane/hurricane.conf
 plugins/HuskHomes/HuskHomesData.db
 plugins/HuskHomes/HuskHomesData.db.bak
 plugins/HuskHomes/messages-zh-cn.yml
+plugins/HuskHomes/spawn.yml
 plugins/Slimefun/block-storage.yml
 plugins/Slimefun/config.yml
 plugins/Slimefun/Items.yml
