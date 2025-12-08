@@ -1,74 +1,75 @@
-# Minecraft Paper 服务端 .gitignore 文件
-
-# 世界数据（通常很大且包含玩家数据）
-world/
-world_nether/
-world_the_end/
-
-# 服务器日志
-logs/
-
-# 缓存文件
-cache/
 .console_history
-
-# 玩家数据文件
-usercache.json
 banned-ips.json
 banned-players.json
-ops.json
-whitelist.json
-
-# 版本历史
-version_history.json
-
-# 库文件夹
-libraries/
-
-# 自动生成的配置文件（可以手动管理模板）
-# 如果你想要跟踪配置更改，可以注释掉这些行
-# bukkit.yml
-# spigot.yml
-# paper.yml
-help.yml
+bukkit.yml
+cache/
 commands.yml
-permissions.yml
-server.properties
-
-# 版本文件夹
-versions/
-
-# 临时文件
-*.tmp
-*.temp
-
-# 系统文件
-.DS_Store
-Thumbs.db
-
-# IDE 文件
-.idea/
-*.iml
-.vscode/
-
-#粘液科技数据文件夹
+config/paper-global.yml
+config/paper-world-defaults.yml
 data-storage/
-
-plugins/Essentials/userdata/
+help.yml
+libraries/
+logs/
+ops.json
+permissions.yml
+plugins/.paper-remapped/
+plugins/bStats/
+plugins/CommandPanels/config.yml
+plugins/CommandPanels/data.yml
+plugins/CommandPanels/lang.yml
+plugins/CommandPanels/panels/dialog.yml
+plugins/CommandPanels/panels/floodgate_custom.yml
+plugins/CommandPanels/panels/floodgate_simple.yml
+plugins/CommandPanels/panels/inventory.yml
+plugins/CoreProtect/.language
+plugins/CoreProtect/.license
 plugins/CoreProtect/database.db
-plugins/.paper-remapped/index.json
-plugins/spark
-plugins/CoreProtect/database.db
-plugins/AuraSkills/backups/
-plugins/AuraSkills/items.yml
-plugins/AuraSkills/userdata/
+plugins/CoreProtect/language.yml
+plugins/floodgate/config.yml
+plugins/floodgate/key.pem
+plugins/FreedomChat/config.yml
+plugins/Geyser-Spigot/custom-skulls.yml
+plugins/Geyser-Spigot/locales/
+plugins/GrimAC/config.yml
+plugins/GrimAC/discord.yml
+plugins/GrimAC/messages.yml
+plugins/GrimAC/punishments.yml
+plugins/GrimAC/violations.sqlite
+plugins/GuizhanLibPlugin/
+plugins/Hurricane/hurricane.conf
 plugins/HuskHomes/HuskHomesData.db
 plugins/HuskHomes/HuskHomesData.db.bak
-plugins/LuckPerms/translations/repository/status.json
-plugins/GrimAC/violations.sqlite
-plugins/Essentials/usermap.bin
-plugins/Essentials/uuids.bin
-*.log
-plugins/EssentialsX-GUI/database.sqlite
-plugins/TAB/skincache.yml
-plugins/TAB/playerdata.yml
+plugins/HuskHomes/messages-zh-cn.yml
+plugins/Slimefun/block-storage.yml
+plugins/Slimefun/config.yml
+plugins/Slimefun/Items.yml
+plugins/Slimefun/messages.yml
+plugins/Slimefun/profile-storage.yml
+plugins/Slimefun/Researches.yml
+plugins/Slimefun/resources.yml
+plugins/Slimefun/sounds.yml
+plugins/Slimefun/world-settings/
+plugins/spark/
+plugins/ViaBackwards/config.yml
+plugins/ViaRewind/config.yml
+plugins/ViaVersion/config.yml
+spigot.yml
+usercache.json
+version_history.json
+versions/
+whitelist.json
+world_nether/
+world_the_end/
+world/advancements/
+world/data/
+world/datapacks/bukkit/
+world/entities/
+world/level.dat
+world/level.dat_old
+world/paper-world.yml
+world/playerdata/
+world/poi/
+world/region/
+world/session.lock
+world/stats/
+world/uid.dat
